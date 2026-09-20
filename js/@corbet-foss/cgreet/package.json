@@ -1,5 +1,5 @@
 {
-  "name": "@corbet-labs/cgreet",
+  "name": "@corbet-foss/cgreet",
   "version": "0.3.0",
   "description": "Deterministic locale-correct greeting and salutation helpers. No models, no I/O: same input always yields the same output. Mirrors the cgreet Rust crate release line.",
   "license": "LGPL-3.0-only WITH LGPL-3.0-linking-exception",
@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corbet-labs/cgreet.git",
-    "directory": "js/@corbet-labs/cgreet"
+    "url": "git+https://github.com/corbet-foss/cgreet.git",
+    "directory": "js/@corbet-foss/cgreet"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -56,9 +56,9 @@
   "engines": {
     "node": ">=20"
   },
-  "homepage": "https://github.com/corbet-labs/cgreet#readme",
+  "homepage": "https://github.com/corbet-foss/cgreet#readme",
   "bugs": {
-    "url": "https://github.com/corbet-labs/cgreet/issues"
+    "url": "https://github.com/corbet-foss/cgreet/issues"
   },
   "keywords": [
     "i18n",
