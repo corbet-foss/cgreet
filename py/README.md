@@ -113,8 +113,7 @@ with the incorporated [GPL version 3](https://github.com/corbet-foss/cgreet/blob
 Combined works may link statically or dynamically without relinking duties;
 library modifications stay LGPL. Applications can use a different license
 subject to the LGPL's conditions.
-Versions 0.2.0 and 0.2.1 retain MIT OR Apache-2.0; version 0.1.0 and earlier
-retain their FSL-1.1-ALv2 grants. The installation examples above refer to
+Versions 0.2.0 and 0.2.1 retain MIT OR Apache-2.0. The installation examples above refer to
 available releases; 0.3.0 has not yet been published to registries.
 
 See the [licensing notes](https://github.com/corbet-foss/cgreet/blob/main/LICENSE.md) for distribution conditions and retained notices.

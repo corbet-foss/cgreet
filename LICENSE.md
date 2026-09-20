@@ -19,7 +19,6 @@ The application license must not restrict those library rights. No relinking
 route or object files are required for combined works under the exception.
 
 Previously distributed releases retain their original grants. Versions 0.2.0
-and 0.2.1 retain MIT OR Apache-2.0; version 0.1.0 and earlier retain their
-FSL-1.1-ALv2 grants. Existing release tags and published archives are not
+and 0.2.1 retain MIT OR Apache-2.0. Existing release tags and published archives are not
 relicensed or replaced. Retained permissive license texts describe those
 materials; they are not alternative grants for new LGPL-covered work.
