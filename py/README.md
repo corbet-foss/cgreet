@@ -6,12 +6,12 @@
 
 **German salutations with the right titles and punctuation.**
 
-[![crates.io](https://img.shields.io/crates/v/cgreet.svg)](https://crates.io/crates/cgreet) [![npm](https://img.shields.io/npm/v/@corbet-foss/cgreet.svg)](https://www.npmjs.com/package/@corbet-foss/cgreet) [![PyPI](https://img.shields.io/pypi/v/cgreet.svg)](https://pypi.org/project/cgreet/) [![Rust API](https://docs.rs/cgreet/badge.svg)](https://docs.rs/cgreet)
+[![crates.io](https://img.shields.io/crates/v/cgreet.svg)](https://crates.io/crates/cgreet) [![npm](https://img.shields.io/npm/v/@corbet-labs/cgreet.svg)](https://www.npmjs.com/package/@corbet-labs/cgreet) [![PyPI](https://img.shields.io/pypi/v/cgreet.svg)](https://pypi.org/project/cgreet/) [![Rust API](https://docs.rs/cgreet/badge.svg)](https://docs.rs/cgreet)
 
 Turn an explicitly supplied honorific, academic titles, and surname into a formal salutation for Switzerland, Liechtenstein, Germany, or Austria. Deterministic rules, no model and no network calls.
 
 ```js
-import { deSalutation } from '@corbet-foss/cgreet';
+import { deSalutation } from '@corbet-labs/cgreet';
 
 deSalutation('Frau Dr. Müller', 'ch');
 // Sehr geehrte Frau Dr. Müller
@@ -24,11 +24,11 @@ deSalutation('Frau Dr. Müller', 'ch');
 | Rust / Cargo | `cargo add cgreet` |
 | Python / pip | `python -m pip install cgreet` |
 | Python / uv | `uv add cgreet` |
-| Node.js / npm | `npm install @corbet-foss/cgreet` |
-| pnpm | `pnpm add @corbet-foss/cgreet` |
-| Yarn | `yarn add @corbet-foss/cgreet` |
-| Bun | `bun add @corbet-foss/cgreet` |
-| Deno | `deno add npm:@corbet-foss/cgreet` |
+| Node.js / npm | `npm install @corbet-labs/cgreet` |
+| pnpm | `pnpm add @corbet-labs/cgreet` |
+| Yarn | `yarn add @corbet-labs/cgreet` |
+| Bun | `bun add @corbet-labs/cgreet` |
+| Deno | `deno add npm:@corbet-labs/cgreet` |
 | Typst | `#import "@preview/cgreet:0.2.1": *` |
 
 The 0.2.1 JavaScript distribution includes compiled ESM, CommonJS,
@@ -37,12 +37,12 @@ supported; no TypeScript loader is required.
 
 ```js
 // CommonJS
-const { deSalutation } = require('@corbet-foss/cgreet');
+const { deSalutation } = require('@corbet-labs/cgreet');
 ```
 
 ```html
 <script type="module">
-  import { deSalutation } from 'https://cdn.jsdelivr.net/npm/@corbet-foss/cgreet@0.2.1/dist/browser.js';
+  import { deSalutation } from 'https://cdn.jsdelivr.net/npm/@corbet-labs/cgreet@0.2.1/dist/browser.js';
   console.log(deSalutation('Frau Dr. Müller', 'ch'));
 </script>
 ```
